@@ -23,6 +23,12 @@ import static org.junit.Assert.assertEquals;
         public void testSub() {
             assertEquals(3, calc.sub(4, 3));
         }
+
+        @Test
+        //Test case by bhavya
+        public void testMul() {
+            assertEquals(12, calc.mult(4, 3));
+        }
     }
 
 
